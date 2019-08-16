@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderSystem.Data\OrderSystem.Data.csproj" />
+    <ProjectReference Include="..\OrderSystem.Model\OrderSystem.Model.csproj" />
+  </ItemGroup>
+
+</Project>
